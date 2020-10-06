@@ -42,6 +42,29 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesignPattern", "DesignPatt
 		GitHub_Link.txt = GitHub_Link.txt
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ASPNetCore_DataAccessLayer", "ASPNetCore_DataAccessLayer", "{76EE6A15-1808-400C-83CF-722310417508}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ASPNetCore_ServiceLayer", "ASPNetCore_ServiceLayer", "{07F3C162-504A-445D-BE94-A4BB486BD28A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ASPNetCore_DomainLayer", "ASPNetCore_DomainLayer", "{B219C510-586B-4227-A751-4D353CB56452}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ASPNetCore_InfrastructureLayer", "ASPNetCore_InfrastructureLayer", "{5453510F-8437-40A0-9CAE-4C3381847679}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccessLayerSamples", "DataAccessLayerSamples", "{E657CD66-10B4-45A2-A281-AF9503274B7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConceptsOfEF", "ConceptsOfEF", "{D5A28248-1FC0-406A-A065-809747728CFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseFirstSampleWitEF", "DatabaseFirstSampleWitEF\DatabaseFirstSampleWitEF.csproj", "{F5EB558F-FAF6-4797-AEF4-D5E4593259C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_WebLinks", "_WebLinks", "{E09C538A-3634-47D9-9CB3-98485A097FFD}"
+	ProjectSection(SolutionItems) = preProject
+		References.txt = References.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstSampleWithEFCore", "CodeFirstSampleWithEFCore\CodeFirstSampleWithEFCore.csproj", "{E93F8020-8752-4BB3-869A-6C06685775A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCodeFirstReverseExample", "EFCodeFirstReverseExample\EFCodeFirstReverseExample.csproj", "{72D8FB4F-6F0E-4E03-BD63-D29BA40870A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -104,6 +127,18 @@ Global
 		{F68FD53E-B628-47C9-A8ED-A2D86941C954}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F68FD53E-B628-47C9-A8ED-A2D86941C954}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F68FD53E-B628-47C9-A8ED-A2D86941C954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5EB558F-FAF6-4797-AEF4-D5E4593259C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5EB558F-FAF6-4797-AEF4-D5E4593259C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5EB558F-FAF6-4797-AEF4-D5E4593259C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5EB558F-FAF6-4797-AEF4-D5E4593259C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E93F8020-8752-4BB3-869A-6C06685775A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E93F8020-8752-4BB3-869A-6C06685775A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E93F8020-8752-4BB3-869A-6C06685775A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E93F8020-8752-4BB3-869A-6C06685775A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72D8FB4F-6F0E-4E03-BD63-D29BA40870A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72D8FB4F-6F0E-4E03-BD63-D29BA40870A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72D8FB4F-6F0E-4E03-BD63-D29BA40870A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72D8FB4F-6F0E-4E03-BD63-D29BA40870A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -125,6 +160,10 @@ Global
 		{710FA772-6130-458E-BADC-8A376291A0A2} = {636D6CB8-724D-4C7B-BFF6-ACCD30A0A761}
 		{CD22ED0D-DFC7-4FDF-97BC-6BB00567911D} = {710FA772-6130-458E-BADC-8A376291A0A2}
 		{F68FD53E-B628-47C9-A8ED-A2D86941C954} = {710FA772-6130-458E-BADC-8A376291A0A2}
+		{D5A28248-1FC0-406A-A065-809747728CFC} = {E657CD66-10B4-45A2-A281-AF9503274B7E}
+		{F5EB558F-FAF6-4797-AEF4-D5E4593259C2} = {D5A28248-1FC0-406A-A065-809747728CFC}
+		{E93F8020-8752-4BB3-869A-6C06685775A3} = {D5A28248-1FC0-406A-A065-809747728CFC}
+		{72D8FB4F-6F0E-4E03-BD63-D29BA40870A7} = {D5A28248-1FC0-406A-A065-809747728CFC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D818E89E-52B2-48D6-8865-55741D865174}

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "002_Open_Cosed_PRinciple_OCP/1.0.0": {
+        "runtime": {
+          "002_Open_Cosed_PRinciple_OCP.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "002_Open_Cosed_PRinciple_OCP/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

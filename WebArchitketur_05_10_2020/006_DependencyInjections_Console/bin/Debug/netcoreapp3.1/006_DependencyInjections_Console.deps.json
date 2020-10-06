@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "006_DependencyInjections_Console/1.0.0": {
+        "dependencies": {
+          "006_DependencyInjections_EntityLib": "1.0.0",
+          "006_DependencyInjections_ServiceLib": "1.0.0",
+          "006_DependencyInjections_SharedLib": "1.0.0"
+        },
+        "runtime": {
+          "006_DependencyInjections_Console.dll": {}
+        }
+      },
+      "006_DependencyInjections_EntityLib/1.0.0": {
+        "dependencies": {
+          "006_DependencyInjections_SharedLib": "1.0.0"
+        },
+        "runtime": {
+          "006_DependencyInjections_EntityLib.dll": {}
+        }
+      },
+      "006_DependencyInjections_ServiceLib/1.0.0": {
+        "dependencies": {
+          "006_DependencyInjections_SharedLib": "1.0.0"
+        },
+        "runtime": {
+          "006_DependencyInjections_ServiceLib.dll": {}
+        }
+      },
+      "006_DependencyInjections_SharedLib/1.0.0": {
+        "runtime": {
+          "006_DependencyInjections_SharedLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "006_DependencyInjections_Console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "006_DependencyInjections_EntityLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "006_DependencyInjections_ServiceLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "006_DependencyInjections_SharedLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

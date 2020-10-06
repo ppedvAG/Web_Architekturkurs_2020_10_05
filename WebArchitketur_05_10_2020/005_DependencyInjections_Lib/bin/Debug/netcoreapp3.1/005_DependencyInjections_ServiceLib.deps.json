@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "005_DependencyInjections_ServiceLib/1.0.0": {
+        "dependencies": {
+          "005_DependencyInjections_EntityLib": "1.0.0"
+        },
+        "runtime": {
+          "005_DependencyInjections_ServiceLib.dll": {}
+        }
+      },
+      "005_DependencyInjections_EntityLib/1.0.0": {
+        "runtime": {
+          "005_DependencyInjections_EntityLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "005_DependencyInjections_ServiceLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "005_DependencyInjections_EntityLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
