@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>_006_DependencyInjections_Console</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\006_DependencyInjections_EntityLib\006_DependencyInjections_EntityLib.csproj" />
+    <ProjectReference Include="..\006_DependencyInjections_ServiceLib\006_DependencyInjections_ServiceLib.csproj" />
+    <ProjectReference Include="..\006_DependencyInjections_SharedLib\006_DependencyInjections_SharedLib.csproj" />
+  </ItemGroup>
+
+</Project>

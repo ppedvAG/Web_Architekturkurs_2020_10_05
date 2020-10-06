@@ -1,0 +1,139 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "006_DependencyInjections_EntityLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "006_DependencyInjections_SharedLib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/006_DependencyInjections_EntityLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/006_DependencyInjections_EntityLib.dll": {}
+        }
+      },
+      "006_DependencyInjections_ServiceLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "006_DependencyInjections_SharedLib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/006_DependencyInjections_ServiceLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/006_DependencyInjections_ServiceLib.dll": {}
+        }
+      },
+      "006_DependencyInjections_SharedLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/006_DependencyInjections_SharedLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/006_DependencyInjections_SharedLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "006_DependencyInjections_EntityLib/1.0.0": {
+      "type": "project",
+      "path": "../006_DependencyInjections_EntityLib/006_DependencyInjections_EntityLib.csproj",
+      "msbuildProject": "../006_DependencyInjections_EntityLib/006_DependencyInjections_EntityLib.csproj"
+    },
+    "006_DependencyInjections_ServiceLib/1.0.0": {
+      "type": "project",
+      "path": "../006_DependencyInjections_ServiceLib/006_DependencyInjections_ServiceLib.csproj",
+      "msbuildProject": "../006_DependencyInjections_ServiceLib/006_DependencyInjections_ServiceLib.csproj"
+    },
+    "006_DependencyInjections_SharedLib/1.0.0": {
+      "type": "project",
+      "path": "../006_DependencyInjections_SharedLib/006_DependencyInjections_SharedLib.csproj",
+      "msbuildProject": "../006_DependencyInjections_SharedLib/006_DependencyInjections_SharedLib.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "006_DependencyInjections_EntityLib >= 1.0.0",
+      "006_DependencyInjections_ServiceLib >= 1.0.0",
+      "006_DependencyInjections_SharedLib >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\KW4\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Aktueller Kurs\\Web_Architekturkurs_2020_10_05\\WebArchitketur_05_10_2020\\006_DependencyInjections_Console\\006_DependencyInjections_Console.csproj",
+      "projectName": "006_DependencyInjections_Console",
+      "projectPath": "C:\\Aktueller Kurs\\Web_Architekturkurs_2020_10_05\\WebArchitketur_05_10_2020\\006_DependencyInjections_Console\\006_DependencyInjections_Console.csproj",
+      "packagesPath": "C:\\Users\\KW4\\.nuget\\packages\\",
+      "outputPath": "C:\\Aktueller Kurs\\Web_Architekturkurs_2020_10_05\\WebArchitketur_05_10_2020\\006_DependencyInjections_Console\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\KW4\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Aktueller Kurs\\Web_Architekturkurs_2020_10_05\\WebArchitketur_05_10_2020\\006_DependencyInjections_EntityLib\\006_DependencyInjections_EntityLib.csproj": {
+              "projectPath": "C:\\Aktueller Kurs\\Web_Architekturkurs_2020_10_05\\WebArchitketur_05_10_2020\\006_DependencyInjections_EntityLib\\006_DependencyInjections_EntityLib.csproj"
+            },
+            "C:\\Aktueller Kurs\\Web_Architekturkurs_2020_10_05\\WebArchitketur_05_10_2020\\006_DependencyInjections_ServiceLib\\006_DependencyInjections_ServiceLib.csproj": {
+              "projectPath": "C:\\Aktueller Kurs\\Web_Architekturkurs_2020_10_05\\WebArchitketur_05_10_2020\\006_DependencyInjections_ServiceLib\\006_DependencyInjections_ServiceLib.csproj"
+            },
+            "C:\\Aktueller Kurs\\Web_Architekturkurs_2020_10_05\\WebArchitketur_05_10_2020\\006_DependencyInjections_SharedLib\\006_DependencyInjections_SharedLib.csproj": {
+              "projectPath": "C:\\Aktueller Kurs\\Web_Architekturkurs_2020_10_05\\WebArchitketur_05_10_2020\\006_DependencyInjections_SharedLib\\006_DependencyInjections_SharedLib.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
