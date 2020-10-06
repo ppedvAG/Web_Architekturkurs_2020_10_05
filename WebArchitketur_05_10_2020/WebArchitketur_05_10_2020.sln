@@ -35,7 +35,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependencyInjections In ASP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShowSample_DependencyInjections_And_LookAround", "ShowSample_DependencyInjections_And_LookAround\ShowSample_DependencyInjections_And_LookAround.csproj", "{CD22ED0D-DFC7-4FDF-97BC-6BB00567911D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShowSample_DI_in_MVC", "ShowSample_DI_in_MVC\ShowSample_DI_in_MVC.csproj", "{F68FD53E-B628-47C9-A8ED-A2D86941C954}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShowSample_DI_in_MVC", "ShowSample_DI_in_MVC\ShowSample_DI_in_MVC.csproj", "{F68FD53E-B628-47C9-A8ED-A2D86941C954}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesignPattern", "DesignPattern", "{6968B180-0CB9-4FCC-AA04-48220960E39C}"
+	ProjectSection(SolutionItems) = preProject
+		GitHub_Link.txt = GitHub_Link.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

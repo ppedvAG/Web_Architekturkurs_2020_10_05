@@ -28,8 +28,12 @@ namespace ShowSample_DependencyInjections_And_LookAround
             services.AddRazorPages();
 
             //Dictionary hat ein Key-Spalte + Werte-Spalte. Key=ICar 
-            services.AddSingleton(typeof(ICar), typeof(MockCar));
+            services.AddSingleton(typeof(ICar), typeof(MockCar)); //Single wird verwendet, bei Objekten, die eine schnelle Abarbeitung haben. 
             services.AddSingleton(typeof(ICar), typeof(Car)); // MockCar wird durch Car überschrieben
+
+
+            //services.AddTransient(typeof(ICar), typeof(MockCar)); //Bei Request werden eine neue Instanz erstellt -> Eigentlich sicher ist, weil die Objekt sich jedesmal neu initialisieren. 
+            //services.AddScoped(typeof(ICar), typeof(MockCar));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

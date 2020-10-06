@@ -114,8 +114,6 @@ namespace _003_Liskov_subsitution_principle_LSP
             #endregion
 
 
-
-
             //Bessere Variante
             List<IProject> projectEmployeeList = new List<IProject>();
 

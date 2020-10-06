@@ -57,7 +57,6 @@ namespace _004_Interface_Segregation_principle_ISP
         public string Name { get; set; }
     }
 
-
     public interface ICanRead<T>
     {
         List<T> ReadAll();
@@ -130,6 +129,8 @@ namespace _004_Interface_Segregation_principle_ISP
             //bessere Variante
 
             ICanWrite<Employee> writeRepository = new Repository<Employee>();
+
+            
 
             ICanDelete<Employee> deleteRepository = new Repository<Employee>();
         }

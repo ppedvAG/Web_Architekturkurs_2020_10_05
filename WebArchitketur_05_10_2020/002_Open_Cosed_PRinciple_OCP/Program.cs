@@ -64,7 +64,7 @@ namespace _002_Open_Cosed_PRinciple_OCP
 
     #region Betert Variante
 
-    public class ReportGenerator
+    public class ReportGenerator // Open Princip
     {
         public virtual void GenerateReport (Employee em)
         {
@@ -95,6 +95,8 @@ namespace _002_Open_Cosed_PRinciple_OCP
         {
             // Erstelle ein  CrystalReport
         }
+
+        // Für andere Typen kann man Reports erstellen
     }
 
     public class PDFGenerator : ReportGenerator
