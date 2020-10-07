@@ -5,5 +5,5 @@ C:\Aktueller Kurs\Web_Architekturkurs_2020_10_05\WebArchitketur_05_10_2020\Gener
 C:\Aktueller Kurs\Web_Architekturkurs_2020_10_05\WebArchitketur_05_10_2020\GenericRepository\obj\Debug\netcoreapp3.1\GenericRepository.AssemblyInfo.cs
 C:\Aktueller Kurs\Web_Architekturkurs_2020_10_05\WebArchitketur_05_10_2020\GenericRepository\obj\Debug\netcoreapp3.1\GenericRepository.dll
 C:\Aktueller Kurs\Web_Architekturkurs_2020_10_05\WebArchitketur_05_10_2020\GenericRepository\obj\Debug\netcoreapp3.1\GenericRepository.pdb
-C:\Aktueller Kurs\Web_Architekturkurs_2020_10_05\WebArchitketur_05_10_2020\GenericRepository\obj\Debug\netcoreapp3.1\GenericRepository.csprojAssemblyReference.cache
 C:\Aktueller Kurs\Web_Architekturkurs_2020_10_05\WebArchitketur_05_10_2020\GenericRepository\obj\Debug\netcoreapp3.1\GenericRepository.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\Web_Architekturkurs_2020_10_05\WebArchitketur_05_10_2020\GenericRepository\obj\Debug\netcoreapp3.1\GenericRepository.csprojAssemblyReference.cache

@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace GenericRepository
 {
@@ -15,22 +16,25 @@ namespace GenericRepository
         {
         }
 
-        public abstract int Count();
+        public abstract Task<int> Count();
 
-        public abstract void Delete(Expression<Func<TEntity, bool>> predicate);
+        public abstract Task Delete(Expression<Func<TEntity, bool>> predicate);
 
-        public abstract void Delete(TEntity entity);
+        public abstract Task Delete(TEntity entity);
 
-        public abstract IList<TEntity> GetAll();
+        public abstract Task<List<TEntity>> GetAll();
 
-        public abstract void Insert(TEntity entity);
+        public abstract Task Insert(TEntity entity);
 
-        public abstract TEntity Single(Expression<Func<TEntity, bool>> predicate);
+        public abstract Task<TEntity> Single(Expression<Func<TEntity, bool>> predicate);
 
-        public abstract void Update(TEntity orginalEntity, TEntity modifiedEntity);
+        public abstract Task Update(TEntity orginalEntity, TEntity modifiedEntity);
 
-        public abstract IList<TEntity> Where(Expression<Func<TEntity, bool>> predicate);
+        public abstract Task Update(TEntity modifiedEntity);
+        
 
-        public abstract IQueryable<TEntity> All();
+        public abstract Task<List<TEntity>> Where(Expression<Func<TEntity, bool>> predicate);
+
+        //public abstract IQueryable<TEntity> All();
     }
 }

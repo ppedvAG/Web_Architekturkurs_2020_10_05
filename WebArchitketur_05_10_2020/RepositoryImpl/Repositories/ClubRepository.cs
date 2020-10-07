@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace RepositoryImpl.Repositories
 {
@@ -22,9 +23,9 @@ namespace RepositoryImpl.Repositories
 
         
 
-        public override int Count()
+        public override async Task<int> Count()
         {
-            return _dbContext.Clubs.Count();
+            return await _dbContext.Clubs.CountAsync();
         }
 
         public override void Delete(Expression<Func<Clubs, bool>> predicate)
@@ -64,10 +65,7 @@ namespace RepositoryImpl.Repositories
         }
 
 
-        public override IQueryable<Clubs> All() //<- IQueryable mit oder ohne besser? 
-        {
-            return _dbContext.Clubs;
-        }
+       
 
 
     }

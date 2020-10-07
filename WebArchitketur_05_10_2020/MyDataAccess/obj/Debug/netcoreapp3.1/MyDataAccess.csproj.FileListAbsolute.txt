@@ -1,0 +1,17 @@
+C:\Aktueller Kurs\Web_Architekturkurs_2020_10_05\WebArchitketur_05_10_2020\MyDataAccess\obj\Debug\netcoreapp3.1\MyDataAccess.AssemblyInfoInputs.cache
+C:\Aktueller Kurs\Web_Architekturkurs_2020_10_05\WebArchitketur_05_10_2020\MyDataAccess\obj\Debug\netcoreapp3.1\MyDataAccess.AssemblyInfo.cs
+C:\Aktueller Kurs\Web_Architekturkurs_2020_10_05\WebArchitketur_05_10_2020\MyDataAccess\bin\Debug\netcoreapp3.1\MyDataAccess.deps.json
+C:\Aktueller Kurs\Web_Architekturkurs_2020_10_05\WebArchitketur_05_10_2020\MyDataAccess\bin\Debug\netcoreapp3.1\MyDataAccess.dll
+C:\Aktueller Kurs\Web_Architekturkurs_2020_10_05\WebArchitketur_05_10_2020\MyDataAccess\bin\Debug\netcoreapp3.1\MyDataAccess.runtimeconfig.json
+C:\Aktueller Kurs\Web_Architekturkurs_2020_10_05\WebArchitketur_05_10_2020\MyDataAccess\bin\Debug\netcoreapp3.1\MyDataAccess.runtimeconfig.dev.json
+C:\Aktueller Kurs\Web_Architekturkurs_2020_10_05\WebArchitketur_05_10_2020\MyDataAccess\obj\Debug\netcoreapp3.1\MyDataAccess.csprojAssemblyReference.cache
+C:\Aktueller Kurs\Web_Architekturkurs_2020_10_05\WebArchitketur_05_10_2020\MyDataAccess\obj\Debug\netcoreapp3.1\MyDataAccess.genruntimeconfig.cache
+C:\Aktueller Kurs\Web_Architekturkurs_2020_10_05\WebArchitketur_05_10_2020\MyDataAccess\bin\Debug\netcoreapp3.1\MyDataAccess.pdb
+C:\Aktueller Kurs\Web_Architekturkurs_2020_10_05\WebArchitketur_05_10_2020\MyDataAccess\obj\Debug\netcoreapp3.1\MyDataAccess.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\Web_Architekturkurs_2020_10_05\WebArchitketur_05_10_2020\MyDataAccess\obj\Debug\netcoreapp3.1\MyDataAccess.dll
+C:\Aktueller Kurs\Web_Architekturkurs_2020_10_05\WebArchitketur_05_10_2020\MyDataAccess\obj\Debug\netcoreapp3.1\MyDataAccess.pdb
+C:\Aktueller Kurs\Web_Architekturkurs_2020_10_05\WebArchitketur_05_10_2020\MyDataAccess\bin\Debug\netcoreapp3.1\GenericRepository.dll
+C:\Aktueller Kurs\Web_Architekturkurs_2020_10_05\WebArchitketur_05_10_2020\MyDataAccess\bin\Debug\netcoreapp3.1\MyDomain.dll
+C:\Aktueller Kurs\Web_Architekturkurs_2020_10_05\WebArchitketur_05_10_2020\MyDataAccess\bin\Debug\netcoreapp3.1\GenericRepository.pdb
+C:\Aktueller Kurs\Web_Architekturkurs_2020_10_05\WebArchitketur_05_10_2020\MyDataAccess\bin\Debug\netcoreapp3.1\MyDomain.pdb
+C:\Aktueller Kurs\Web_Architekturkurs_2020_10_05\WebArchitketur_05_10_2020\MyDataAccess\obj\Debug\netcoreapp3.1\MyDataAccess.csproj.CopyComplete

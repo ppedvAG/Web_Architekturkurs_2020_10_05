@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace GenericRepository.Interfaces
 {
@@ -11,7 +12,7 @@ namespace GenericRepository.Interfaces
         ICanUpdate<TEntity>,
         ICanDelete<TEntity> where TEntity : class
     {
-        int Count();
+        Task<int> Count();
 
 
 

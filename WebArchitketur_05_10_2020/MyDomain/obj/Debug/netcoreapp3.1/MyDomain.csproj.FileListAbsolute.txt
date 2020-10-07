@@ -1,0 +1,8 @@
+C:\Aktueller Kurs\Web_Architekturkurs_2020_10_05\WebArchitketur_05_10_2020\MyDomain\bin\Debug\netcoreapp3.1\MyDomain.deps.json
+C:\Aktueller Kurs\Web_Architekturkurs_2020_10_05\WebArchitketur_05_10_2020\MyDomain\bin\Debug\netcoreapp3.1\MyDomain.dll
+C:\Aktueller Kurs\Web_Architekturkurs_2020_10_05\WebArchitketur_05_10_2020\MyDomain\bin\Debug\netcoreapp3.1\MyDomain.pdb
+C:\Aktueller Kurs\Web_Architekturkurs_2020_10_05\WebArchitketur_05_10_2020\MyDomain\obj\Debug\netcoreapp3.1\MyDomain.AssemblyInfoInputs.cache
+C:\Aktueller Kurs\Web_Architekturkurs_2020_10_05\WebArchitketur_05_10_2020\MyDomain\obj\Debug\netcoreapp3.1\MyDomain.AssemblyInfo.cs
+C:\Aktueller Kurs\Web_Architekturkurs_2020_10_05\WebArchitketur_05_10_2020\MyDomain\obj\Debug\netcoreapp3.1\MyDomain.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\Web_Architekturkurs_2020_10_05\WebArchitketur_05_10_2020\MyDomain\obj\Debug\netcoreapp3.1\MyDomain.dll
+C:\Aktueller Kurs\Web_Architekturkurs_2020_10_05\WebArchitketur_05_10_2020\MyDomain\obj\Debug\netcoreapp3.1\MyDomain.pdb
