@@ -9,8 +9,6 @@ namespace AppUsedRepositoryImpl
     {
         static void Main(string[] args)
         {
-
-
             //Kann alles
             IRepository<Clubs> repository = new ClubRepository();
 

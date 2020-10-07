@@ -5,3 +5,19 @@ Data Access Layer:
 UnitOfWork + Repository
 
 https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application
+
+
+SharpRepository
+https://github.com/SharpRepository/SharpRepository/tree/develop/SharpRepository.Repository
+
+
+
+
+WebAPI:
+
+Swagger-Dokumentation  -> https://docs.microsoft.com/de-de/aspnet/core/tutorials/getting-started-with-swashbuckle?view=aspnetcore-3.1&tabs=visual-studio
+Erste Schritte mit Swashbuckle und ASP.NET CoreErfahren Sie, wie Sie Ihren ASP.NET Core-Web-API-Projekten Swashbuckle hinzufügen, um die Swagger-Benutzeroberfläche zu integrieren.docs.microsoft.com
+
+
+- https://code-maze.com/hateoas-aspnet-core-web-api/ 
+- Github Repository ->https://github.com/CodeMazeBlog/advanced-rest-concepts-aspnetcore/tree/hateoas-end

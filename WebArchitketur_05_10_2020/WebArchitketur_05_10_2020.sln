@@ -61,17 +61,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_WebLinks", "_WebLinks", "{
 		References.txt = References.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstSampleWithEFCore", "CodeFirstSampleWithEFCore\CodeFirstSampleWithEFCore.csproj", "{E93F8020-8752-4BB3-869A-6C06685775A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeFirstSampleWithEFCore", "CodeFirstSampleWithEFCore\CodeFirstSampleWithEFCore.csproj", "{E93F8020-8752-4BB3-869A-6C06685775A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCodeFirstReverseExample", "EFCodeFirstReverseExample\EFCodeFirstReverseExample.csproj", "{72D8FB4F-6F0E-4E03-BD63-D29BA40870A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCodeFirstReverseExample", "EFCodeFirstReverseExample\EFCodeFirstReverseExample.csproj", "{72D8FB4F-6F0E-4E03-BD63-D29BA40870A7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RepositoryPattern", "RepositoryPattern", "{80D3A0A8-B85A-4423-A5B6-CB2F9211BC7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericRepository", "GenericRepository\GenericRepository.csproj", "{5D3CB73C-B140-46C0-8D74-F2963A26B424}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericRepository", "GenericRepository\GenericRepository.csproj", "{5D3CB73C-B140-46C0-8D74-F2963A26B424}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryImpl", "RepositoryImpl\RepositoryImpl.csproj", "{CBC2A51F-00C7-4AE2-BB59-9AD9F7F19635}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepositoryImpl", "RepositoryImpl\RepositoryImpl.csproj", "{CBC2A51F-00C7-4AE2-BB59-9AD9F7F19635}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppUsedRepositoryImpl", "AppUsedRepositoryImpl\AppUsedRepositoryImpl.csproj", "{21132D47-136C-4F51-945D-F709672B6F06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppUsedRepositoryImpl", "AppUsedRepositoryImpl\AppUsedRepositoryImpl.csproj", "{21132D47-136C-4F51-945D-F709672B6F06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebAPI", "WebAPI", "{A569E26B-E8AC-4AC4-8C0F-B644E595BD23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPISample", "WebAPISample\WebAPISample.csproj", "{6538D351-B799-411F-AE67-2BD2D7B1E1A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +163,10 @@ Global
 		{21132D47-136C-4F51-945D-F709672B6F06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21132D47-136C-4F51-945D-F709672B6F06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21132D47-136C-4F51-945D-F709672B6F06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6538D351-B799-411F-AE67-2BD2D7B1E1A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6538D351-B799-411F-AE67-2BD2D7B1E1A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6538D351-B799-411F-AE67-2BD2D7B1E1A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6538D351-B799-411F-AE67-2BD2D7B1E1A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -188,6 +196,7 @@ Global
 		{5D3CB73C-B140-46C0-8D74-F2963A26B424} = {80D3A0A8-B85A-4423-A5B6-CB2F9211BC7F}
 		{CBC2A51F-00C7-4AE2-BB59-9AD9F7F19635} = {80D3A0A8-B85A-4423-A5B6-CB2F9211BC7F}
 		{21132D47-136C-4F51-945D-F709672B6F06} = {80D3A0A8-B85A-4423-A5B6-CB2F9211BC7F}
+		{6538D351-B799-411F-AE67-2BD2D7B1E1A8} = {A569E26B-E8AC-4AC4-8C0F-B644E595BD23}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D818E89E-52B2-48D6-8865-55741D865174}
